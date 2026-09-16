@@ -10,3 +10,5 @@ repo reachable (unauthenticated curl 200): PASS
 curl: (22) The requested URL returned error: 404
 verification 404
 audit 200
+footer_verification_link: FIXED -> raw frontend/index.html at main contains blob/main/docs/VERIFICATION.md; live Pages HTML serves it; CI green at c072e99.
+note: verification.md path under docs/ is NOT on GitHub Pages (repo Pages serves frontend/ only); the footer now points to the GitHub blob URL which returns 200.
