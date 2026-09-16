@@ -175,8 +175,15 @@ class GrantWeave(gl.Contract):
                 return False
             # Revalidate leader-provided quotes against fresh, hash-pinned documents.
             # All successful results have exactly one digest per source. Failsafe has no citations.
-            if proposed.get("eligibility") == "UNCERTAIN" and proposed.get("duplication") == "UNCERTAIN":
-                return proposed.get("citations") == [] or proposed == independent
+            if independent.get("citations") == []:
+                # Infrastructure failures carry no citations. Never accept arbitrary
+                # extra fields or unbounded text even when no allocation is possible.
+                return (
+                    set(proposed) == set(independent)
+                    and proposed.get("citations") == []
+                    and isinstance(proposed.get("reason"), str)
+                    and 10 <= len(proposed["reason"]) <= 1000
+                )
             try:
                 docs = []
                 for entry in entries:
