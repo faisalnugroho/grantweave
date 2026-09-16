@@ -1,0 +1,38 @@
+create_round Transaction: 0x82bf72b0df427f3cd1074d673040c755580025eea3d2161da3435ba69d594d99 ↗ Execution verified and on-chain state read back.
+Traceback (most recent call last):
+  File "/home/ubuntu/grantweave/scripts/live_browser.py", line 38, in <module>
+    page.select_option('#example','open-map')
+  File "/home/ubuntu/genlayer-venv/lib/python3.12/site-packages/playwright/sync_api/_generated.py", line 12285, in select_option
+    self._sync(
+  File "/home/ubuntu/genlayer-venv/lib/python3.12/site-packages/playwright/_impl/_sync_base.py", line 115, in _sync
+    return task.result()
+           ^^^^^^^^^^^^^
+  File "/home/ubuntu/genlayer-venv/lib/python3.12/site-packages/playwright/_impl/_page.py", line 1073, in select_option
+    return await self._main_frame.select_option(**params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/genlayer-venv/lib/python3.12/site-packages/playwright/_impl/_frame.py", line 814, in select_option
+    return await self._channel.send("selectOption", self._timeout, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/genlayer-venv/lib/python3.12/site-packages/playwright/_impl/_connection.py", line 76, in send
+    return await self._connection.wrap_api_call(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/genlayer-venv/lib/python3.12/site-packages/playwright/_impl/_connection.py", line 632, in wrap_api_call
+    raise rewrite_error(error, f"{parsed_st['apiName']}: {error}") from None
+playwright._impl._errors.TimeoutError: Page.select_option: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("#example")
+    - locator resolved to <select id="example" aria-label="Demonstration proposal">…</select>
+  - attempting select option action
+    2 × waiting for element to be visible and enabled
+      - did not find some options
+    - retrying select option action
+    - waiting 20ms
+    2 × waiting for element to be visible and enabled
+      - did not find some options
+    - retrying select option action
+      - waiting 100ms
+    60 × waiting for element to be visible and enabled
+       - did not find some options
+     - retrying select option action
+       - waiting 500ms
+

@@ -1,0 +1,77 @@
+{
+  "url": "https://faisalnugroho.github.io/grantweave/",
+  "round_id": "browser-1789583875",
+  "mode": "REAL public UI and Studionet RPC",
+  "steps": [
+    {
+      "label": "create_round",
+      "transaction": "Transaction: 0x8df92602b9362886e7421eb5c0d43452ebc321acdcd4a602a763cc7f2920b569 \u2197",
+      "notice": "Execution verified and on-chain state read back."
+    },
+    {
+      "label": "submit_proposal",
+      "transaction": "Transaction: 0x8df92602b9362886e7421eb5c0d43452ebc321acdcd4a602a763cc7f2920b569 \u2197",
+      "notice": "Execution verified and on-chain state read back."
+    },
+    {
+      "label": "seal_round",
+      "transaction": "Transaction: 0x77601672eed51dc414f380ed42703d41307e38698a48ee0593280476c7a0c48d \u2197",
+      "notice": "Execution verified and on-chain state read back."
+    },
+    {
+      "label": "evaluate_next",
+      "transaction": "Transaction: 0x21dce00a53019ff7e06a4c245857f370dcbee053ec28ac4a37cb2d071b3f1237 \u2197",
+      "notice": "Execution verified and on-chain state read back."
+    }
+  ],
+  "errors": [],
+  "wallet_label": "Testnet burner: 0x8F0F7C7708A99bfd747DF04DC166868220540590 \u00b7 Session-only. Never send real assets.",
+  "ledger_text": "browser-1789583875\n\nBrowser verified public goods\nSEALED\n\nOnly fund concrete public-goods deliverables that will be openly licensed and freely accessible without registration. Require a clear artifact, intended audience and delivery timeline.\n\nRound owner: 0x8F0F7C7708A99bfd747DF04DC166868220540590\n\nBUDGET\n100\nRESERVED\n40\nREMAINING\n60\n\nAllocation credits only \u00b7 1 / 1 reviewed in submission order\n\n1. open map\nRESERVED\n\n40 credits requested \u00b7 0x8F0F7C7708A99bfd747DF04DC166868220540590\n\nPinned proposal source \u2197\n\nSHA-256: d300db59bc299f553e964be28261d8b5c95f8f063a77d5d7ee8012fe641f2407\n\nCandidate meets the rubric: it proposes a concrete public-goods artifact, openly licensed and freely accessible without registration, with a clear audience and a four-week timeline. No baseline sources beyond the candidate were provided, so duplication is DISTINCT because the scope is clear and there are no reserved deliverables to compare against.\n\nEligibility: PASS \u00b7 Duplication: DISTINCT\nSource 0 \u2014 Deliverable: publish an English-language, openly licensed beginner manual for the Open Map toolkit. The manual will cover installation, importing CSV coordinates, and producing a static neighborhood map.\nSource 0 \u2014 It will include 12 executable examples and be freely accessible without registration. Scope covers documentation only, not new software features. Timeline: four weeks.\nInspect recorded result",
+  "pass": true,
+  "correction_note": "Original steps.transaction values lagged one step due to logger timing. Actual methods/hashes recovered by decoding chain calldata; original values above are preserved. No new transaction was minted for this correction.",
+  "authoritative_transactions": [
+    {
+      "hash": "0x2311bc9976660ccdefc95a05c059148f526698981cddf5f116ee51389905958d",
+      "status": "FINALIZED",
+      "method": "evaluate_next",
+      "args": [
+        "browser-1789583875"
+      ],
+      "recipient": "0xA2855AA44F14D4E40b804a15c9144A7C7aEAF466"
+    },
+    {
+      "hash": "0x21dce00a53019ff7e06a4c245857f370dcbee053ec28ac4a37cb2d071b3f1237",
+      "status": "FINALIZED",
+      "method": "seal_round",
+      "args": [
+        "browser-1789583875"
+      ],
+      "recipient": "0xA2855AA44F14D4E40b804a15c9144A7C7aEAF466"
+    },
+    {
+      "hash": "0x77601672eed51dc414f380ed42703d41307e38698a48ee0593280476c7a0c48d",
+      "status": "FINALIZED",
+      "method": "submit_proposal",
+      "args": [
+        "browser-1789583875",
+        "open map",
+        "https://raw.githubusercontent.com/faisalnugroho/grantweave/184a498947dc32ce3be089f77d3e3542ec24cec9/examples/open-map.md",
+        "d300db59bc299f553e964be28261d8b5c95f8f063a77d5d7ee8012fe641f2407",
+        40
+      ],
+      "recipient": "0xA2855AA44F14D4E40b804a15c9144A7C7aEAF466"
+    },
+    {
+      "hash": "0x8df92602b9362886e7421eb5c0d43452ebc321acdcd4a602a763cc7f2920b569",
+      "status": "FINALIZED",
+      "method": "create_round",
+      "args": [
+        "browser-1789583875",
+        "Browser verified public goods",
+        "Only fund concrete public-goods deliverables that will be openly licensed and freely accessible without registration. Require a clear artifact, intended audience and delivery timeline.",
+        100
+      ],
+      "recipient": "0xA2855AA44F14D4E40b804a15c9144A7C7aEAF466"
+    }
+  ]
+}

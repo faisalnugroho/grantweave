@@ -1,0 +1,709 @@
+{
+  "address": "0xA2855AA44F14D4E40b804a15c9144A7C7aEAF466",
+  "read_only": true,
+  "rounds": {
+    "gw-distinct-1": {
+      "budget": 100,
+      "id": "gw-distinct-1",
+      "next_index": 1,
+      "owner": "0xC98AdFe571467FaB1E330300e675835f36B3eDC8",
+      "proposals": [
+        {
+          "amount": 40,
+          "applicant": "0xC98AdFe571467FaB1E330300e675835f36B3eDC8",
+          "digest": "d300db59bc299f553e964be28261d8b5c95f8f063a77d5d7ee8012fe641f2407",
+          "index": 0,
+          "result": {
+            "citations": [
+              {
+                "quote": "Deliverable: publish an English-language, openly licensed beginner manual for the Open Map toolkit. The manual will cover installation, importing CSV coordinates, and producing a static neighborhood map. It will include 12 executable examples and be freely accessible without registration. Scope covers documentation only, not new software features. Timeline: four weeks.",
+                "source": 0
+              },
+              {
+                "quote": "Requested allocation: 40 demonstration credits.",
+                "source": 0
+              },
+              {
+                "quote": "Synthetic GrantWeave demonstration proposal; not an actual funding request.",
+                "source": 0
+              },
+              {
+                "quote": "# Open Map Documentation",
+                "source": 0
+              }
+            ],
+            "duplication": "DISTINCT",
+            "eligibility": "PASS",
+            "hashes": [
+              "d300db59bc299f553e964be28261d8b5c95f8f063a77d5d7ee8012fe641f2407"
+            ],
+            "reason": "Candidate is eligible: it names a concrete artifact (openly licensed beginner manual for Open Map toolkit), states intended audience (beginners), delivery timeline (four weeks), and confirms free access without registration. No baseline sources (sources 1+) are provided, so with clear scope there is no duplication."
+          },
+          "status": "RESERVED",
+          "title": "open map",
+          "url": "https://raw.githubusercontent.com/faisalnugroho/grantweave/184a498947dc32ce3be089f77d3e3542ec24cec9/examples/open-map.md"
+        }
+      ],
+      "remaining": 60,
+      "rubric": "Only fund concrete public-goods deliverables that will be openly licensed and freely accessible without registration. Require a clear artifact, intended audience and delivery timeline.",
+      "sealed": true,
+      "title": "Public goods demonstration"
+    },
+    "gw-distinct-2": {
+      "budget": 100,
+      "id": "gw-distinct-2",
+      "next_index": 1,
+      "owner": "0xC98AdFe571467FaB1E330300e675835f36B3eDC8",
+      "proposals": [
+        {
+          "amount": 40,
+          "applicant": "0xC98AdFe571467FaB1E330300e675835f36B3eDC8",
+          "digest": "d300db59bc299f553e964be28261d8b5c95f8f063a77d5d7ee8012fe641f2407",
+          "index": 0,
+          "result": {
+            "citations": [
+              {
+                "quote": "publish an English-language, openly licensed beginner manual for the Open Map toolkit. The manual will cover installation, importing CSV coordinates, and producing a static neighborhood map. It will include 12 executable examples and be freely accessible without registration. Scope covers documentation only, not new software features. Timeline: four weeks.",
+                "source": 0
+              }
+            ],
+            "duplication": "DISTINCT",
+            "eligibility": "PASS",
+            "hashes": [
+              "d300db59bc299f553e964be28261d8b5c95f8f063a77d5d7ee8012fe641f2407"
+            ],
+            "reason": "Candidate meets all rubric requirements: it specifies a concrete public-goods deliverable (an openly licensed beginner manual), a clear intended audience (beginners using the Open Map toolkit), open licensing with no registration barrier, and a defined four-week timeline with 12 executable examples. No baseline sources exist in this round against which duplication could be found, so the scope is clear enough to return DISTINCT."
+          },
+          "status": "RESERVED",
+          "title": "open map",
+          "url": "https://raw.githubusercontent.com/faisalnugroho/grantweave/184a498947dc32ce3be089f77d3e3542ec24cec9/examples/open-map.md"
+        }
+      ],
+      "remaining": 60,
+      "rubric": "Only fund concrete public-goods deliverables that will be openly licensed and freely accessible without registration. Require a clear artifact, intended audience and delivery timeline.",
+      "sealed": true,
+      "title": "Public goods demonstration"
+    },
+    "gw-distinct-3": {
+      "budget": 100,
+      "id": "gw-distinct-3",
+      "next_index": 1,
+      "owner": "0xC98AdFe571467FaB1E330300e675835f36B3eDC8",
+      "proposals": [
+        {
+          "amount": 40,
+          "applicant": "0xC98AdFe571467FaB1E330300e675835f36B3eDC8",
+          "digest": "d300db59bc299f553e964be28261d8b5c95f8f063a77d5d7ee8012fe641f2407",
+          "index": 0,
+          "result": {
+            "citations": [
+              {
+                "quote": "Deliverable: publish an English-language, openly licensed beginner manual for the Open Map toolkit.",
+                "source": 0
+              }
+            ],
+            "duplication": "DISTINCT",
+            "eligibility": "PASS",
+            "hashes": [
+              "d300db59bc299f553e964be28261d8b5c95f8f063a77d5d7ee8012fe641f2407"
+            ],
+            "reason": "The candidate proposes a concrete public documentation artifact with open access, open license, clear audience, and a four-week timeline. No baseline sources beyond source 0 were provided, so duplication defaults to DISTINCT because the scope is clear."
+          },
+          "status": "RESERVED",
+          "title": "open map",
+          "url": "https://raw.githubusercontent.com/faisalnugroho/grantweave/184a498947dc32ce3be089f77d3e3542ec24cec9/examples/open-map.md"
+        }
+      ],
+      "remaining": 60,
+      "rubric": "Only fund concrete public-goods deliverables that will be openly licensed and freely accessible without registration. Require a clear artifact, intended audience and delivery timeline.",
+      "sealed": true,
+      "title": "Public goods demonstration"
+    },
+    "gw-overlap": {
+      "budget": 60,
+      "id": "gw-overlap",
+      "next_index": 5,
+      "owner": "0xC98AdFe571467FaB1E330300e675835f36B3eDC8",
+      "proposals": [
+        {
+          "amount": 40,
+          "applicant": "0xC98AdFe571467FaB1E330300e675835f36B3eDC8",
+          "digest": "d300db59bc299f553e964be28261d8b5c95f8f063a77d5d7ee8012fe641f2407",
+          "index": 0,
+          "result": {
+            "citations": [
+              {
+                "quote": "Deliverable: publish an English-language, openly licensed beginner manual for the Open Map toolkit. The manual will cover installation, importing CSV coordinates, and producing a static neighborhood map.",
+                "source": 0
+              },
+              {
+                "quote": "It will include 12 executable examples and be freely accessible without registration. Scope covers documentation only, not new software features. Timeline: four weeks.",
+                "source": 0
+              }
+            ],
+            "duplication": "DISTINCT",
+            "eligibility": "PASS",
+            "hashes": [
+              "d300db59bc299f553e964be28261d8b5c95f8f063a77d5d7ee8012fe641f2407"
+            ],
+            "reason": "The candidate proposes a concrete public-goods deliverable (an English-language beginner manual for the Open Map toolkit) that will be openly licensed and freely accessible without registration. It specifies a clear artifact, intended audience (beginners), and a delivery timeline (four weeks), meeting all rubric requirements. There are no baseline sources to compare against for duplication, and the scope is clear, so the deliverable is distinct."
+          },
+          "status": "RESERVED",
+          "title": "open map",
+          "url": "https://raw.githubusercontent.com/faisalnugroho/grantweave/184a498947dc32ce3be089f77d3e3542ec24cec9/examples/open-map.md"
+        },
+        {
+          "amount": 40,
+          "applicant": "0xC98AdFe571467FaB1E330300e675835f36B3eDC8",
+          "digest": "1f75fa411f8e717cb281189f36cbd135c0261435037c3ae08a82e64917fab55f",
+          "index": 1,
+          "result": {
+            "citations": [
+              {
+                "quote": "Deliverable: an English beginner handbook for Open Map, freely available with an open license. It teaches installation, CSV coordinate import and rendering a static neighborhood map, with twelve runnable examples. Work is documentation only, without developing software features, delivered within four weeks. This is the same scope as the Open Map Documentation proposal, rephrased",
+                "source": 0
+              },
+              {
+                "quote": "Deliverable: publish an English-language, openly licensed beginner manual for the Open Map toolkit. The manual will cover installation, importing CSV coordinates, and producing a static neighborhood map. It will include 12 executable examples and be freely accessible without registration. Scope covers documentation only, not new software features. Timeline: four weeks.",
+                "source": 1
+              }
+            ],
+            "duplication": "DUPLICATE",
+            "eligibility": "PASS",
+            "hashes": [
+              "1f75fa411f8e717cb281189f36cbd135c0261435037c3ae08a82e64917fab55f",
+              "d300db59bc299f553e964be28261d8b5c95f8f063a77d5d7ee8012fe641f2407"
+            ],
+            "reason": "The candidate meets the rubric: it proposes a concrete openly licensed handbook, freely accessible, for beginners, with a four-week timeline. It duplicates the baseline because the artifact, audience, scope, examples, and timeline are the same, and source 0 explicitly says it is the same scope rephrased."
+          },
+          "status": "REJECTED",
+          "title": "map reworded",
+          "url": "https://raw.githubusercontent.com/faisalnugroho/grantweave/184a498947dc32ce3be089f77d3e3542ec24cec9/examples/map-reworded.md"
+        },
+        {
+          "amount": 30,
+          "applicant": "0xC98AdFe571467FaB1E330300e675835f36B3eDC8",
+          "digest": "99313efe5306b045ba1eeb77fae2d59b11485072ca32fbf0a249edb976cdc58f",
+          "index": 2,
+          "result": {
+            "citations": [
+              {
+                "quote": "Deliverable: create an openly licensed audio narration and screen-reader navigation guide for the River Archive historical collection",
+                "source": 0
+              },
+              {
+                "quote": "Deliverable: publish an English-language, openly licensed beginner manual for the Open Map toolkit",
+                "source": 1
+              }
+            ],
+            "duplication": "DISTINCT",
+            "eligibility": "PASS",
+            "hashes": [
+              "99313efe5306b045ba1eeb77fae2d59b11485072ca32fbf0a249edb976cdc58f",
+              "d300db59bc299f553e964be28261d8b5c95f8f063a77d5d7ee8012fe641f2407"
+            ],
+            "reason": "Candidate proposes accessible audio guide for River Archive with audio narration and screen-reader navigation, while baseline source describes Open Map documentation manual. Both deliver concrete public-goods documentation with clear artifacts, audiences, and timelines, but cover entirely different projects and audiences. Audio guide targets accessibility for archival documents, while Open Map manual targets software installation and usage."
+          },
+          "status": "OVER_BUDGET",
+          "title": "accessibility",
+          "url": "https://raw.githubusercontent.com/faisalnugroho/grantweave/184a498947dc32ce3be089f77d3e3542ec24cec9/examples/accessibility.md"
+        },
+        {
+          "amount": 20,
+          "applicant": "0xC98AdFe571467FaB1E330300e675835f36B3eDC8",
+          "digest": "074963d48dd06afaf9f06def54c7c4031402cf14e1f737e89cc875a8d50d0310",
+          "index": 3,
+          "result": {
+            "citations": [
+              {
+                "quote": "Deliverable: publish a proprietary course restricted to paid subscribers. All videos and text remain all-rights-reserved, downloads are forbidden, and no content is offered publicly. The project explicitly refuses an open license and free access.",
+                "source": 0
+              },
+              {
+                "quote": "Deliverable: publish an English-language, openly licensed beginner manual for the Open Map toolkit. The manual will cover installation, importing CSV coordinates, and producing a static neighborhood map.",
+                "source": 1
+              }
+            ],
+            "duplication": "DISTINCT",
+            "eligibility": "FAIL",
+            "hashes": [
+              "074963d48dd06afaf9f06def54c7c4031402cf14e1f737e89cc875a8d50d0310",
+              "d300db59bc299f553e964be28261d8b5c95f8f063a77d5d7ee8012fe641f2407"
+            ],
+            "reason": "The candidate proposal fails the eligibility criteria because it explicitly refuses to provide an open license or free access, which are core requirements of the rubric. The proposal describes a proprietary course restricted to paid subscribers with all rights reserved. Regarding duplication, the candidate is distinct from the baseline (Source 1) as it focuses on a closed subscription course, whereas the baseline involves open-source documentation for the Open Map toolkit."
+          },
+          "status": "REJECTED",
+          "title": "private course",
+          "url": "https://raw.githubusercontent.com/faisalnugroho/grantweave/184a498947dc32ce3be089f77d3e3542ec24cec9/examples/private-course.md"
+        },
+        {
+          "amount": 10,
+          "applicant": "0xC98AdFe571467FaB1E330300e675835f36B3eDC8",
+          "digest": "9625d224d23f9068e7346aa410f1b86e6b8c6cc704f3f0dbecf0fb4dfce111f8",
+          "index": 4,
+          "result": {
+            "citations": [
+              {
+                "quote": "We hope to do useful things for people later. We have not decided which artifacts, audience, rights or deliverables are involved. There is no concrete scope or delivery commitment.",
+                "source": 0
+              },
+              {
+                "quote": "Deliverable: publish an English-language, openly licensed beginner manual for the Open Map toolkit. The manual will cover installation, importing CSV coordinates, and producing a static neighborhood map. It will include 12 executable examples and be freely accessible without registration. Scope covers documentation only, not new software features. Timeline: four weeks.",
+                "source": 1
+              }
+            ],
+            "duplication": "DISTINCT",
+            "eligibility": "FAIL",
+            "hashes": [
+              "9625d224d23f9068e7346aa410f1b86e6b8c6cc704f3f0dbecf0fb4dfce111f8",
+              "d300db59bc299f553e964be28261d8b5c95f8f063a77d5d7ee8012fe641f2407"
+            ],
+            "reason": "Candidate fails the rubric because it does not specify a concrete public-goods deliverable, open license/access terms, intended audience, or delivery timeline. Compared with the baseline, the candidate's scope is too vague to duplicate the specific Open Map documentation manual."
+          },
+          "status": "REJECTED",
+          "title": "ambiguous",
+          "url": "https://raw.githubusercontent.com/faisalnugroho/grantweave/184a498947dc32ce3be089f77d3e3542ec24cec9/examples/ambiguous.md"
+        }
+      ],
+      "remaining": 20,
+      "rubric": "Only fund concrete public-goods deliverables that will be openly licensed and freely accessible without registration. Require a clear artifact, intended audience and delivery timeline.",
+      "sealed": true,
+      "title": "Duplicate allocation demonstration"
+    },
+    "browser-1789582876": {
+      "budget": 100,
+      "id": "browser-1789582876",
+      "next_index": 0,
+      "owner": "0xB20480b7E350464Fa2B35B05BDa8c01473d1a9F2",
+      "proposals": [],
+      "remaining": 100,
+      "rubric": "Only fund concrete public-goods deliverables that will be openly licensed and freely accessible without registration. Require a clear artifact, intended audience and delivery timeline.",
+      "sealed": false,
+      "title": "Browser verified public goods"
+    },
+    "browser-1789583875": {
+      "budget": 100,
+      "id": "browser-1789583875",
+      "next_index": 1,
+      "owner": "0x8F0F7C7708A99bfd747DF04DC166868220540590",
+      "proposals": [
+        {
+          "amount": 40,
+          "applicant": "0x8F0F7C7708A99bfd747DF04DC166868220540590",
+          "digest": "d300db59bc299f553e964be28261d8b5c95f8f063a77d5d7ee8012fe641f2407",
+          "index": 0,
+          "result": {
+            "citations": [
+              {
+                "quote": "Deliverable: publish an English-language, openly licensed beginner manual for the Open Map toolkit. The manual will cover installation, importing CSV coordinates, and producing a static neighborhood map.",
+                "source": 0
+              },
+              {
+                "quote": "It will include 12 executable examples and be freely accessible without registration. Scope covers documentation only, not new software features. Timeline: four weeks.",
+                "source": 0
+              }
+            ],
+            "duplication": "DISTINCT",
+            "eligibility": "PASS",
+            "hashes": [
+              "d300db59bc299f553e964be28261d8b5c95f8f063a77d5d7ee8012fe641f2407"
+            ],
+            "reason": "Candidate meets the rubric: it proposes a concrete public-goods artifact, openly licensed and freely accessible without registration, with a clear audience and a four-week timeline. No baseline sources beyond the candidate were provided, so duplication is DISTINCT because the scope is clear and there are no reserved deliverables to compare against."
+          },
+          "status": "RESERVED",
+          "title": "open map",
+          "url": "https://raw.githubusercontent.com/faisalnugroho/grantweave/184a498947dc32ce3be089f77d3e3542ec24cec9/examples/open-map.md"
+        }
+      ],
+      "remaining": 60,
+      "rubric": "Only fund concrete public-goods deliverables that will be openly licensed and freely accessible without registration. Require a clear artifact, intended audience and delivery timeline.",
+      "sealed": true,
+      "title": "Browser verified public goods"
+    },
+    "browser-1789585481": {
+      "budget": 100,
+      "id": "browser-1789585481",
+      "next_index": 1,
+      "owner": "0x03B980d7E0cD4117F80F1bBE6db8541144248ee0",
+      "proposals": [
+        {
+          "amount": 40,
+          "applicant": "0x03B980d7E0cD4117F80F1bBE6db8541144248ee0",
+          "digest": "d300db59bc299f553e964be28261d8b5c95f8f063a77d5d7ee8012fe641f2407",
+          "index": 0,
+          "result": {
+            "citations": [
+              {
+                "quote": "Deliverable: publish an English-language, openly licensed beginner manual for the Open Map toolkit. The manual will cover installation, importing CSV coordinates, and producing a static neighborhood map.",
+                "source": 0
+              }
+            ],
+            "duplication": "DISTINCT",
+            "eligibility": "PASS",
+            "hashes": [
+              "d300db59bc299f553e964be28261d8b5c95f8f063a77d5d7ee8012fe641f2407"
+            ],
+            "reason": "The proposal outlines a concrete public-good deliverable consisting of an openly licensed beginner manual for the Open Map toolkit. It specifies a clear artifact (a manual with 12 executable examples), a defined audience (beginners), and a specific delivery timeline of four weeks. The scope is restricted to documentation, fulfilling the rubric's requirement for concrete, freely accessible deliverables without registration. As there are no other sources provided for comparison, the work is distinct."
+          },
+          "status": "RESERVED",
+          "title": "open map",
+          "url": "https://raw.githubusercontent.com/faisalnugroho/grantweave/184a498947dc32ce3be089f77d3e3542ec24cec9/examples/open-map.md"
+        }
+      ],
+      "remaining": 60,
+      "rubric": "Only fund concrete public-goods deliverables that will be openly licensed and freely accessible without registration. Require a clear artifact, intended audience and delivery timeline.",
+      "sealed": true,
+      "title": "Browser verified public goods"
+    }
+  },
+  "integrity_round_exists": false,
+  "deployed_source_matches_repo": true,
+  "source_sha256": "3627bd9189e29e9b58664f99e5f2c786eb7a55d04888aad1de5b26e128bee04d",
+  "browser_transactions": [
+    {
+      "hash": "0x5afc4f096b5ff72e3076ade034a8eaf57e6b7ffa3b6e3d29f46e8fedb02049da",
+      "status": "FINALIZED",
+      "method": "evaluate_next",
+      "args": [
+        "browser-1789585481"
+      ],
+      "recipient": "0xA2855AA44F14D4E40b804a15c9144A7C7aEAF466"
+    },
+    {
+      "hash": "0x4f84a04f595727ac45e706fa15066870fb2bf6ae07a57a1c251b51302ff1cfba",
+      "status": "FINALIZED",
+      "method": "seal_round",
+      "args": [
+        "browser-1789585481"
+      ],
+      "recipient": "0xA2855AA44F14D4E40b804a15c9144A7C7aEAF466"
+    },
+    {
+      "hash": "0x0fc848362b1937d45be036dc84be504274d913e7eb5f56a7016b048dd6cab458",
+      "status": "FINALIZED",
+      "method": "submit_proposal",
+      "args": [
+        "browser-1789585481",
+        "open map",
+        "https://raw.githubusercontent.com/faisalnugroho/grantweave/184a498947dc32ce3be089f77d3e3542ec24cec9/examples/open-map.md",
+        "d300db59bc299f553e964be28261d8b5c95f8f063a77d5d7ee8012fe641f2407",
+        40
+      ],
+      "recipient": "0xA2855AA44F14D4E40b804a15c9144A7C7aEAF466"
+    },
+    {
+      "hash": "0x40aa98ed0799033810822fd8b57d9590f45120b44fa3f4597b9f2b052931f71b",
+      "status": "FINALIZED",
+      "method": "create_round",
+      "args": [
+        "browser-1789585481",
+        "Browser verified public goods",
+        "Only fund concrete public-goods deliverables that will be openly licensed and freely accessible without registration. Require a clear artifact, intended audience and delivery timeline.",
+        100
+      ],
+      "recipient": "0xA2855AA44F14D4E40b804a15c9144A7C7aEAF466"
+    },
+    {
+      "hash": "0x2311bc9976660ccdefc95a05c059148f526698981cddf5f116ee51389905958d",
+      "status": "FINALIZED",
+      "method": "evaluate_next",
+      "args": [
+        "browser-1789583875"
+      ],
+      "recipient": "0xA2855AA44F14D4E40b804a15c9144A7C7aEAF466"
+    },
+    {
+      "hash": "0x21dce00a53019ff7e06a4c245857f370dcbee053ec28ac4a37cb2d071b3f1237",
+      "status": "FINALIZED",
+      "method": "seal_round",
+      "args": [
+        "browser-1789583875"
+      ],
+      "recipient": "0xA2855AA44F14D4E40b804a15c9144A7C7aEAF466"
+    },
+    {
+      "hash": "0x77601672eed51dc414f380ed42703d41307e38698a48ee0593280476c7a0c48d",
+      "status": "FINALIZED",
+      "method": "submit_proposal",
+      "args": [
+        "browser-1789583875",
+        "open map",
+        "https://raw.githubusercontent.com/faisalnugroho/grantweave/184a498947dc32ce3be089f77d3e3542ec24cec9/examples/open-map.md",
+        "d300db59bc299f553e964be28261d8b5c95f8f063a77d5d7ee8012fe641f2407",
+        40
+      ],
+      "recipient": "0xA2855AA44F14D4E40b804a15c9144A7C7aEAF466"
+    },
+    {
+      "hash": "0x8df92602b9362886e7421eb5c0d43452ebc321acdcd4a602a763cc7f2920b569",
+      "status": "FINALIZED",
+      "method": "create_round",
+      "args": [
+        "browser-1789583875",
+        "Browser verified public goods",
+        "Only fund concrete public-goods deliverables that will be openly licensed and freely accessible without registration. Require a clear artifact, intended audience and delivery timeline.",
+        100
+      ],
+      "recipient": "0xA2855AA44F14D4E40b804a15c9144A7C7aEAF466"
+    },
+    {
+      "hash": "0x82bf72b0df427f3cd1074d673040c755580025eea3d2161da3435ba69d594d99",
+      "status": "FINALIZED",
+      "method": "create_round",
+      "args": [
+        "browser-1789582876",
+        "Browser verified public goods",
+        "Only fund concrete public-goods deliverables that will be openly licensed and freely accessible without registration. Require a clear artifact, intended audience and delivery timeline.",
+        100
+      ],
+      "recipient": "0xA2855AA44F14D4E40b804a15c9144A7C7aEAF466"
+    }
+  ],
+  "transactions": [
+    {
+      "hash": "0x9d46623f976f28f62af5e0343d5414b47c14ba54bbaf0b8c163a587a78393bed",
+      "status": "FINALIZED",
+      "vote": "MAJORITY_AGREE",
+      "execution": "SUCCESS",
+      "success": true
+    },
+    {
+      "hash": "0x6ba685cf180a64679370500fe640febc8b337e6b19c89ffad131ac013a9fd105",
+      "status": "FINALIZED",
+      "vote": "MAJORITY_AGREE",
+      "execution": "SUCCESS",
+      "success": true
+    },
+    {
+      "hash": "0x9132cd16a8fff7f2032b30bad59822f5e668483e48bb8004603d8e5a7242c7f6",
+      "status": "FINALIZED",
+      "vote": "MAJORITY_AGREE",
+      "execution": "SUCCESS",
+      "success": true
+    },
+    {
+      "hash": "0x1b02f6ce0d1872fa0ece05f5630b62a23bf7db24b35aee466d9e6174dd2ad940",
+      "status": "FINALIZED",
+      "vote": "MAJORITY_AGREE",
+      "execution": "SUCCESS",
+      "success": true
+    },
+    {
+      "hash": "0x4e9ac5eeafa613e6ea5756a885c5674ef908352a34908c1f6289c842845b0999",
+      "status": "FINALIZED",
+      "vote": "MAJORITY_AGREE",
+      "execution": "SUCCESS",
+      "success": true
+    },
+    {
+      "hash": "0x5bc14d20a8def7336ba03d9355d7f524927223297a75fb5c77ccc3cde6802156",
+      "status": "FINALIZED",
+      "vote": "MAJORITY_AGREE",
+      "execution": "SUCCESS",
+      "success": true
+    },
+    {
+      "hash": "0x5c94c30a8f965b90024904cb04f161f27bf87279a33c9664961a0bb31026bea8",
+      "status": "FINALIZED",
+      "vote": "MAJORITY_AGREE",
+      "execution": "SUCCESS",
+      "success": true
+    },
+    {
+      "hash": "0x037bf4a811b30133559c4d2795b6575783dd09e786785231ee2e4015e43ef9ef",
+      "status": "FINALIZED",
+      "vote": "MAJORITY_AGREE",
+      "execution": "SUCCESS",
+      "success": true
+    },
+    {
+      "hash": "0xf336bda524f64bf08164b599cb59c1d899fb86047e348ebd70eb894c4b4e247c",
+      "status": "FINALIZED",
+      "vote": "MAJORITY_AGREE",
+      "execution": "SUCCESS",
+      "success": true
+    },
+    {
+      "hash": "0xeaaf2ec06ab112ca54f87ac0e6cee7edf2fc2a4380f1b5d83d51fdf057db4249",
+      "status": "FINALIZED",
+      "vote": "MAJORITY_AGREE",
+      "execution": "SUCCESS",
+      "success": true
+    },
+    {
+      "hash": "0x31cb163e7e6c99e63e14b2e605bb4c4aa80949b1289b8ff7d2549b94990f1658",
+      "status": "FINALIZED",
+      "vote": "MAJORITY_AGREE",
+      "execution": "SUCCESS",
+      "success": true
+    },
+    {
+      "hash": "0xab47cd1b3da6cc30574837fee97551e98aa11fa497c6234232c865cf5f2c8b65",
+      "status": "FINALIZED",
+      "vote": "MAJORITY_AGREE",
+      "execution": "SUCCESS",
+      "success": true
+    },
+    {
+      "hash": "0x0f31e80c764874eb04941e9047453bfd1afff090de718e8f6011f8720c00e467",
+      "status": "FINALIZED",
+      "vote": "MAJORITY_AGREE",
+      "execution": "SUCCESS",
+      "success": true
+    },
+    {
+      "hash": "0xc20550e7b5fa7e22c360445f71ec12baf02e8c248627759e2e72bbd71079941e",
+      "status": "FINALIZED",
+      "vote": "MAJORITY_AGREE",
+      "execution": "SUCCESS",
+      "success": true
+    },
+    {
+      "hash": "0x8dc5fa659931c74c4a4bd3d97769bd4014c0ed17808de80a16d3969817c771b5",
+      "status": "FINALIZED",
+      "vote": "MAJORITY_AGREE",
+      "execution": "SUCCESS",
+      "success": true
+    },
+    {
+      "hash": "0x77a3dbe2dc0fbc1d36d1db25949db5547f6ae564c3fbb207fab71cf093d702a9",
+      "status": "FINALIZED",
+      "vote": "MAJORITY_AGREE",
+      "execution": "SUCCESS",
+      "success": true
+    },
+    {
+      "hash": "0xb76ac84a21a525d89eadcb30aa2fc52841dbb0f66aedd0d65a2a6759406ab387",
+      "status": "FINALIZED",
+      "vote": "MAJORITY_AGREE",
+      "execution": "SUCCESS",
+      "success": true
+    },
+    {
+      "hash": "0x2b5354776a412303c514f3d1e8bba1be23574bd1e5d3d5d4c6da0f1d75b511ec",
+      "status": "FINALIZED",
+      "vote": "MAJORITY_AGREE",
+      "execution": "SUCCESS",
+      "success": true
+    },
+    {
+      "hash": "0x3808d2f2a1a13db17f757d7df14d9aa09b9c94fab4edddcbeba2c64e09114475",
+      "status": "FINALIZED",
+      "vote": "MAJORITY_AGREE",
+      "execution": "SUCCESS",
+      "success": true
+    },
+    {
+      "hash": "0xbaeaaf15c4a35ef2075f8ca3318d3b410e4941cfc2c4684dc789193c09e4f9c2",
+      "status": "FINALIZED",
+      "vote": "MAJORITY_AGREE",
+      "execution": "SUCCESS",
+      "success": true
+    },
+    {
+      "hash": "0xdeae5a3973d8d465166f12faf817d67bdc5f9333dde0b9e87ce6f43b279d5750",
+      "status": "FINALIZED",
+      "vote": "MAJORITY_AGREE",
+      "execution": "SUCCESS",
+      "success": true
+    },
+    {
+      "hash": "0x01d36aab387f07adb3a55efcc250e371ebd77f37dccb36eed1f563691d13ee52",
+      "status": "FINALIZED",
+      "vote": "MAJORITY_AGREE",
+      "execution": "SUCCESS",
+      "success": true
+    },
+    {
+      "hash": "0x6a7a4a174e52df9e5d043b5431b351a0ada3c29f07e67ad8ea8bfac23057fa63",
+      "status": "FINALIZED",
+      "vote": "MAJORITY_AGREE",
+      "execution": "SUCCESS",
+      "success": true
+    },
+    {
+      "hash": "0xd15304c5cea29d90d4e9252e800dd481b8c04f6ed9b8dfda4b6c7be04fd4862b",
+      "status": "FINALIZED",
+      "vote": "MAJORITY_AGREE",
+      "execution": "SUCCESS",
+      "success": true
+    },
+    {
+      "hash": "0x0a8ab7d8b3f687daac90bea2cafe1c1e92ceac94130557ff76012113a021fc77",
+      "status": "FINALIZED",
+      "vote": "MAJORITY_DISAGREE",
+      "execution": "SUCCESS",
+      "success": false
+    },
+    {
+      "hash": "0x3ede3a4a7ce44615e148f57d961567e2fc23ab811d5d45b089399b3ba472b739",
+      "status": "FINALIZED",
+      "vote": "MAJORITY_AGREE",
+      "execution": "SUCCESS",
+      "success": true
+    },
+    {
+      "hash": "0x5afc4f096b5ff72e3076ade034a8eaf57e6b7ffa3b6e3d29f46e8fedb02049da",
+      "status": "FINALIZED",
+      "vote": "MAJORITY_AGREE",
+      "execution": "SUCCESS",
+      "success": true
+    },
+    {
+      "hash": "0x4f84a04f595727ac45e706fa15066870fb2bf6ae07a57a1c251b51302ff1cfba",
+      "status": "FINALIZED",
+      "vote": "MAJORITY_AGREE",
+      "execution": "SUCCESS",
+      "success": true
+    },
+    {
+      "hash": "0x0fc848362b1937d45be036dc84be504274d913e7eb5f56a7016b048dd6cab458",
+      "status": "FINALIZED",
+      "vote": "MAJORITY_AGREE",
+      "execution": "SUCCESS",
+      "success": true
+    },
+    {
+      "hash": "0x40aa98ed0799033810822fd8b57d9590f45120b44fa3f4597b9f2b052931f71b",
+      "status": "FINALIZED",
+      "vote": "MAJORITY_AGREE",
+      "execution": "SUCCESS",
+      "success": true
+    },
+    {
+      "hash": "0x2311bc9976660ccdefc95a05c059148f526698981cddf5f116ee51389905958d",
+      "status": "FINALIZED",
+      "vote": "MAJORITY_AGREE",
+      "execution": "SUCCESS",
+      "success": true
+    },
+    {
+      "hash": "0x21dce00a53019ff7e06a4c245857f370dcbee053ec28ac4a37cb2d071b3f1237",
+      "status": "FINALIZED",
+      "vote": "MAJORITY_AGREE",
+      "execution": "SUCCESS",
+      "success": true
+    },
+    {
+      "hash": "0x77601672eed51dc414f380ed42703d41307e38698a48ee0593280476c7a0c48d",
+      "status": "FINALIZED",
+      "vote": "MAJORITY_AGREE",
+      "execution": "SUCCESS",
+      "success": true
+    },
+    {
+      "hash": "0x8df92602b9362886e7421eb5c0d43452ebc321acdcd4a602a763cc7f2920b569",
+      "status": "FINALIZED",
+      "vote": "MAJORITY_AGREE",
+      "execution": "SUCCESS",
+      "success": true
+    },
+    {
+      "hash": "0x82bf72b0df427f3cd1074d673040c755580025eea3d2161da3435ba69d594d99",
+      "status": "FINALIZED",
+      "vote": "MAJORITY_AGREE",
+      "execution": "SUCCESS",
+      "success": true
+    }
+  ]
+}

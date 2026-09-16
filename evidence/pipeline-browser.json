@@ -1,0 +1,31 @@
+{
+  "url": "http://127.0.0.1:33459/",
+  "round_id": "browser-1789585481",
+  "mode": "REAL public UI and Studionet RPC",
+  "steps": [
+    {
+      "label": "create_round",
+      "transaction": "Transaction: 0x40aa98ed0799033810822fd8b57d9590f45120b44fa3f4597b9f2b052931f71b \u2197",
+      "notice": "Execution verified and on-chain state read back."
+    },
+    {
+      "label": "submit_proposal",
+      "transaction": "Transaction: 0x0fc848362b1937d45be036dc84be504274d913e7eb5f56a7016b048dd6cab458 \u2197",
+      "notice": "Execution verified and on-chain state read back."
+    },
+    {
+      "label": "seal_round",
+      "transaction": "Transaction: 0x4f84a04f595727ac45e706fa15066870fb2bf6ae07a57a1c251b51302ff1cfba \u2197",
+      "notice": "Execution verified and on-chain state read back."
+    },
+    {
+      "label": "evaluate_next",
+      "transaction": "Transaction: 0x5afc4f096b5ff72e3076ade034a8eaf57e6b7ffa3b6e3d29f46e8fedb02049da \u2197",
+      "notice": "Execution verified and on-chain state read back."
+    }
+  ],
+  "errors": [],
+  "wallet_label": "Testnet burner: 0x03B980d7E0cD4117F80F1bBE6db8541144248ee0 \u00b7 Session-only. Never send real assets.",
+  "ledger_text": "browser-1789585481\n\nBrowser verified public goods\nSEALED\n\nOnly fund concrete public-goods deliverables that will be openly licensed and freely accessible without registration. Require a clear artifact, intended audience and delivery timeline.\n\nRound owner: 0x03B980d7E0cD4117F80F1bBE6db8541144248ee0\n\nBUDGET\n100\nRESERVED\n40\nREMAINING\n60\n\nAllocation credits only \u00b7 1 / 1 reviewed in submission order\n\n1. open map\nRESERVED\n\n40 credits requested \u00b7 0x03B980d7E0cD4117F80F1bBE6db8541144248ee0\n\nPinned proposal source \u2197\n\nSHA-256: d300db59bc299f553e964be28261d8b5c95f8f063a77d5d7ee8012fe641f2407\n\nThe proposal outlines a concrete public-good deliverable consisting of an openly licensed beginner manual for the Open Map toolkit. It specifies a clear artifact (a manual with 12 executable examples), a defined audience (beginners), and a specific delivery timeline of four weeks. The scope is restricted to documentation, fulfilling the rubric's requirement for concrete, freely accessible deliverables without registration. As there are no other sources provided for comparison, the work is distinct.\n\nEligibility: PASS \u00b7 Duplication: DISTINCT\nSource 0 \u2014 Deliverable: publish an English-language, openly licensed beginner manual for the Open Map toolkit. The manual will cover installation, importing CSV coordinates, and producing a static neighborhood map.\nInspect recorded result",
+  "pass": true
+}
