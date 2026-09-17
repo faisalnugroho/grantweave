@@ -7,7 +7,7 @@ Suggested secondary tags: Proposal Screening; Treasury Allocation
 Network: studio (Studionet, chain 61999)
 
 ## Description (under 1000 characters)
-GrantWeave is a public-goods allocation desk that uses GenLayer validators to judge whether a proposal meets a round's rubric and describes distinct work rather than rephrasing earlier reserved deliverables. Applicants submit commit-pinned public text with SHA-256; validators fetch it, check byte integrity, interpret scope and cite every source. The contract derives the outcome and reserves bounded allocation credits only for eligible, distinct work within budget. Includes a usable dashboard, 97 direct-mode tests, GenVM validation, first-party security review, real multi-validator transactions and browser-to-chain verification. This is a testnet prototype: credits are not payouts, comparison is within-round only, open admission is not Sybil-resistant, and LLM judgments can be wrong. One observed consensus disagreement and its retry are disclosed in the verification report.
+GrantWeave is a public-goods allocation desk that uses GenLayer validators to judge whether a proposal meets a round's rubric and describes distinct work rather than rephrasing earlier reserved deliverables. Applicants submit commit-pinned public text with SHA-256; validators fetch it, check byte integrity, interpret scope and cite every source. The contract derives the outcome and reserves bounded allocation credits only for eligible, distinct work within budget. Includes a usable dashboard, 109 direct-mode tests (including 12 forensic regressions), GenVM validation, first-party security review, real multi-validator transactions and browser-to-chain verification. This is a testnet prototype: credits are not payouts, comparison is within-round only, open admission is not Sybil-resistant, and LLM judgments can be wrong. One observed consensus disagreement and its retry are disclosed in the verification report.
 
 ## Links
 Repository: https://github.com/faisalnugroho/grantweave
@@ -15,6 +15,8 @@ Dashboard: https://faisalnugroho.github.io/grantweave/
 Contract: https://explorer-studio.genlayer.com/contracts/0xA2855AA44F14D4E40b804a15c9144A7C7aEAF466
 Verification: https://github.com/faisalnugroho/grantweave/blob/main/docs/VERIFICATION.md
 Audit: https://github.com/faisalnugroho/grantweave/blob/main/docs/AUDIT.md
+Consensus forensic report: https://github.com/faisalnugroho/grantweave/blob/main/docs/CONSENSUS_FORENSIC.md
+Public release report: https://github.com/faisalnugroho/grantweave/blob/main/docs/PUBLIC_RELEASE.md
 
 ## Demonstration evidence
 Distinct: https://explorer-studio.genlayer.com/tx/0x4e9ac5eeafa613e6ea5756a885c5674ef908352a34908c1f6289c842845b0999

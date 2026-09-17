@@ -34,6 +34,13 @@ The intentionally vague proposal produced UNDETERMINED / MAJORITY_DISAGREE at 0x
 `gw-integrity` was never created: the original smoke stopped before that step. Missing-round errors were expected, not corrupt serialization. Hash-mismatch and completed-record guards are tested locally; no live coverage is claimed for those scenarios.
 No GLSim, local Docker Studio, Bradbury or mainnet execution was performed. Studionet uses full consensus, not leader_only. Synthetic demo proposals are explicitly labeled. Quote grounding and consensus do not prove the LLM is correct or immune to prompt injection.
 
+## Focused ambiguous-consensus follow-up
+The discrepancy is explained in [CONSENSUS_FORENSIC.md](CONSENSUS_FORENSIC.md), with fresh receipt/calldata evidence. Both original leaders returned FAIL/DISTINCT. Original votes: 2 agree / 3 disagree; retry: 3 agree / 1 disagree / 1 idle. The accepted retry output exactly matches persisted REJECTED. This is correct deterministic mapping, not a conversion of UNCERTAIN or MAJORITY_DISAGREE into rejection. The fixed INCONCLUSIVE smoke expectation incorrectly assumed deterministic model interpretation. The original failure, expectation and skipped scenarios remain preserved.
+
+No contract or frontend application changes and no redeployment. Twelve added regressions pass; current complete direct suite is 109 passed. Three fresh full-consensus ambiguous runs each returned REJECTED with no allocation and verified evidence/state binding. A fresh public browser flow completed four real transactions, reached RESERVED, and passed independent on-chain readback. A read-only browser check confirms the original ambiguous result renders REJECTED with matching recorded JSON. A polling HTTP 502 and a hidden-panel test-wait failure were recovered and preserved in the new logs.
+
+The new focused smoke checks a strict non-allocation invariant plus correct label mapping, quorum and exact request/result binding; it does not rename REJECTED as INCONCLUSIVE. The model's “too vague to duplicate” rationale conflicts with the prompt's conservative ambiguity guidance, so exact-label determinism is not claimed. See the forensic report for evidence, limits and the scoped review decision.
+
 ## Reproduce without new writes
 `python scripts/verify_readback.py` re-reads existing rounds and transaction receipts; it never submits a transaction. It uses the saved testnet account only to satisfy SDK read requirements. Public receipts also have explorer links above.
 The raw original logs are preserved, including failure tracebacks and stale browser labels. evidence/readback.json is the correction authority.

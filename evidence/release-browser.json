@@ -1,0 +1,31 @@
+{
+  "url": "https://faisalnugroho.github.io/grantweave/",
+  "round_id": "browser-1789605149",
+  "mode": "REAL public UI and Studionet RPC",
+  "steps": [
+    {
+      "label": "create_round",
+      "transaction": "Transaction: 0x0174d09a629b30a8375fd25c17aa09b97dcd6b4592beb5343b153112170ea3b2 \u2197",
+      "notice": "Execution verified and on-chain state read back."
+    },
+    {
+      "label": "submit_proposal",
+      "transaction": "Transaction: 0x12241f7c750992a7eb3b8101c7deff09d0e2f835b8f4ca3aae6e0988d3ebb56f \u2197",
+      "notice": "Execution verified and on-chain state read back."
+    },
+    {
+      "label": "seal_round",
+      "transaction": "Transaction: 0xb6dae4fb2a529c6646e2ba28a712cf1b626494678300f91a564e5778cbf0489e \u2197",
+      "notice": "Execution verified and on-chain state read back."
+    },
+    {
+      "label": "evaluate_next",
+      "transaction": "Transaction: 0x8306fc9851913952dfd5bd1f0f63e44bed268f256ee465941b1759d5f69fa0f9 \u2197",
+      "notice": "Execution verified and on-chain state read back."
+    }
+  ],
+  "errors": [],
+  "wallet_label": "Testnet burner: 0x704D4c30d4a29FB6ac866572Ab35f7092206e667 \u00b7 Session-only. Never send real assets.",
+  "ledger_text": "browser-1789605149\n\nBrowser verified public goods\nSEALED\n\nOnly fund concrete public-goods deliverables that will be openly licensed and freely accessible without registration. Require a clear artifact, intended audience and delivery timeline.\n\nRound owner: 0x704D4c30d4a29FB6ac866572Ab35f7092206e667\n\nBUDGET\n100\nRESERVED\n40\nREMAINING\n60\n\nAllocation credits only \u00b7 1 / 1 reviewed in submission order\n\n1. open map\nRESERVED\n\n40 credits requested \u00b7 0x704D4c30d4a29FB6ac866572Ab35f7092206e667\n\nPinned proposal source \u2197\n\nSHA-256: d300db59bc299f553e964be28261d8b5c95f8f063a77d5d7ee8012fe641f2407\n\nCandidate proposes a concrete public documentation artifact, openly licensed and freely accessible without registration, with clear audience/scope and a four-week timeline. No baseline sources beyond source 0 were provided, so duplication is DISTINCT under the instruction for no baselines.\n\nEligibility: PASS \u00b7 Duplication: DISTINCT\nSource 0 \u2014 Deliverable: publish an English-language, openly licensed beginner manual for the Open Map toolkit.\nSource 0 \u2014 It will include 12 executable examples and be freely accessible without registration.\nSource 0 \u2014 Scope covers documentation only, not new software features. Timeline: four weeks.\nInspect recorded result",
+  "pass": true
+}

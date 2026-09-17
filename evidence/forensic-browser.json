@@ -1,0 +1,31 @@
+{
+  "url": "https://faisalnugroho.github.io/grantweave/",
+  "round_id": "browser-1789601543",
+  "mode": "REAL public UI and Studionet RPC",
+  "steps": [
+    {
+      "label": "create_round",
+      "transaction": "Transaction: 0xd0d907502b10e579e3a20e85fac08673f01c7a4cf9e6decfbdf6851b5baefb72 \u2197",
+      "notice": "Execution verified and on-chain state read back."
+    },
+    {
+      "label": "submit_proposal",
+      "transaction": "Transaction: 0xa5205425f9bd22f61537fcb1442071a461de2d740b338b0aa3bbe8bd06de6367 \u2197",
+      "notice": "Execution verified and on-chain state read back."
+    },
+    {
+      "label": "seal_round",
+      "transaction": "Transaction: 0x395322f33fceb198dec018f6bc0d6a0db3cf07ca6aa50302f76bd2b70040549c \u2197",
+      "notice": "Execution verified and on-chain state read back."
+    },
+    {
+      "label": "evaluate_next",
+      "transaction": "Transaction: 0x77319914dbbccb4122b19e206dfbfb1d95bd7561dbc0e0c7f53f722ab42f02fb \u2197",
+      "notice": "Execution verified and on-chain state read back."
+    }
+  ],
+  "errors": [],
+  "wallet_label": "Testnet burner: 0x8C8385f927CA23404DE521A8aeE9B3f4802AD6fF \u00b7 Session-only. Never send real assets.",
+  "ledger_text": "browser-1789601543\n\nBrowser verified public goods\nSEALED\n\nOnly fund concrete public-goods deliverables that will be openly licensed and freely accessible without registration. Require a clear artifact, intended audience and delivery timeline.\n\nRound owner: 0x8C8385f927CA23404DE521A8aeE9B3f4802AD6fF\n\nBUDGET\n100\nRESERVED\n40\nREMAINING\n60\n\nAllocation credits only \u00b7 1 / 1 reviewed in submission order\n\n1. open map\nRESERVED\n\n40 credits requested \u00b7 0x8C8385f927CA23404DE521A8aeE9B3f4802AD6fF\n\nPinned proposal source \u2197\n\nSHA-256: d300db59bc299f553e964be28261d8b5c95f8f063a77d5d7ee8012fe641f2407\n\nCandidate meets all rubric requirements: delivers a concrete public-goods artifact (beginner manual), openly licensed, freely accessible without registration, with a clear intended audience (beginners), defined scope (installation, CSV import, static map production, 12 executable examples), and explicit timeline (four weeks). No baseline sources exist to compare against, so duplication defaults to DISTINCT given the clear scope.\n\nEligibility: PASS \u00b7 Duplication: DISTINCT\nSource 0 \u2014 publish an English-language, openly licensed beginner manual for the Open Map toolkit. The manual will cover installation, importing CSV coordinates, and producing a static neighborhood map. It will include 12 executable examples and be freely accessible without registration. Scope covers documentation only, not new software features. Timeline: four weeks.\nInspect recorded result",
+  "pass": true
+}

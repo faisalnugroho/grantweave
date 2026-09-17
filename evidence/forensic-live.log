@@ -1,0 +1,37 @@
+gw-forensic-1789601529-1-create 0x5900b290da90779832b545fdf19207e70a37e81485dfa4db9b41d870bc9f9619
+gw-forensic-1789601529-1-submit-0 0x5301f0afc96a2e3834b7d254beb99c52d53571a50a70f4fa471985075c4f3e18
+Traceback (most recent call last):
+  File "/home/ubuntu/grantweave/scripts/forensic_live.py", line 40, in <module>
+    assert succeeded(write(rid+'-'+label,method,args))
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/grantweave/scripts/forensic_live.py", line 28, in write
+    item['receipt'] = wait(item['tx']); save()
+                      ^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/grantweave/scripts/live_smoke.py", line 41, in wait
+    record = rpc("eth_getTransactionByHash", [tx])
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/grantweave/scripts/live_smoke.py", line 26, in rpc
+    response.raise_for_status()
+  File "/home/ubuntu/genlayer-env/lib/python3.12/site-packages/requests/models.py", line 1167, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 502 Server Error: Bad Gateway for url: https://studio.genlayer.com/api
+gw-forensic-1789601529-1-submit-1 0xe098ef6faf20459bd80f28d6bd8b40c382e6ed6d1e9a828fb8aba0e38c47a7ad
+gw-forensic-1789601529-1-seal 0x5fbc269ccb1188ce489285de104bb777776e07e66a94176357c711c45f8033c6
+gw-forensic-1789601529-1-eval-0-0 0x55eb9bf4ef872003ef68ee75b5d5b2e8e59e03e4ab569ec59148d446ff060bbe
+gw-forensic-1789601529-1-eval-1-0 0xc3772f77cb9de0b31227bba4a60f3858737c563b163efc79ab850af02abfa179
+AMBIGUOUS gw-forensic-1789601529-1 REJECTED {'citations': [{'quote': 'We hope to do useful things for people later. We have not decided which artifacts, audience, rights or deliverables are involved. There is no concrete scope or delivery commitment.', 'source': 0}, {'quote': 'Deliverable: publish an English-language, openly licensed beginner manual for the Open Map toolkit. The manual will cover installation, importing CSV coordinates, and producing a static neighborhood map. It will include 12 executable examples and be freely accessible without registration. Scope covers documentation only, not new software features. Timeline: four weeks.', 'source': 1}], 'duplication': 'DISTINCT', 'eligibility': 'FAIL', 'hashes': ['9625d224d23f9068e7346aa410f1b86e6b8c6cc704f3f0dbecf0fb4dfce111f8', 'd300db59bc299f553e964be28261d8b5c95f8f063a77d5d7ee8012fe641f2407'], 'reason': 'Candidate lacks a concrete artifact, intended audience, delivery timeline, and open licensing commitment, failing all rubric requirements. It is distinct from the baseline documentation project, which has clear deliverables.'}
+gw-forensic-1789601529-2-create 0x8db28edaabd1e5a46932a4d78d1e2bda0a0f381990cb8a149842b6c24e6fa68a
+gw-forensic-1789601529-2-submit-0 0x22a989d1dcfaee2dbf179e33af01897bd0b97a0e43b6ce45c4a7bc45cb55f996
+gw-forensic-1789601529-2-submit-1 0x0f4828ef67592ef36d2600e3d45dacb190f1587ef50c45f2e0ad685b8278e702
+gw-forensic-1789601529-2-seal 0x1df9bc965f6162b4ab2b2a28273aae0e30feb1cfea0e5ae737bf603f9bc44664
+gw-forensic-1789601529-2-eval-0-0 0xa10f36ff77b0edfd254fd6de241b7c697f6d6c7135bb0673e7350c245b72c24b
+gw-forensic-1789601529-2-eval-1-0 0xc179972099519649ad81d535f78256432ff6cf39f80d1cec65063a71672f27d7
+AMBIGUOUS gw-forensic-1789601529-2 REJECTED {'citations': [{'quote': 'We hope to do useful things for people later. We have not decided which artifacts, audience, rights or deliverables are involved. There is no concrete scope or delivery commitment.', 'source': 0}, {'quote': 'Deliverable: publish an English-language, openly licensed beginner manual for the Open Map toolkit. The manual will cover installation, importing CSV coordinates, and producing a static neighborhood map. It will include 12 executable examples and be freely accessible without registration. Scope covers documentation only, not new software features. Timeline: four weeks.', 'source': 1}], 'duplication': 'DISTINCT', 'eligibility': 'FAIL', 'hashes': ['9625d224d23f9068e7346aa410f1b86e6b8c6cc704f3f0dbecf0fb4dfce111f8', 'd300db59bc299f553e964be28261d8b5c95f8f063a77d5d7ee8012fe641f2407'], 'reason': 'Candidate fails the rubric because it does not specify a concrete public artifact, intended audience, open licensing/access terms, or a delivery timeline. Baseline source 1 is a specific documentation manual with clear scope and timeline, which is materially different from the candidate’s vague future work; with clear non-overlapping scope, duplication is distinct.'}
+gw-forensic-1789601529-3-create 0x24e22e76da0b8a7d62266d257c312e415451360fed5938a7befe78e74ee1c448
+gw-forensic-1789601529-3-submit-0 0x2ef09dedab506b966ccc3304d9a6d92f340ed4bc68c9626cc7f5ac15537672be
+gw-forensic-1789601529-3-submit-1 0xcd6e3e569bc535fbb8872f79b1e68ebf5b8ee1111756dc1cfd6c9225f886edd6
+gw-forensic-1789601529-3-seal 0x16588417d23d4266eb9ea8e88366cdcd95dc5b7df1eaf89fce2f91c4aca77601
+gw-forensic-1789601529-3-eval-0-0 0xaffea9e761129bcdb0c712d15d81ac63b4cbf710734c01970b6b6385913614b0
+gw-forensic-1789601529-3-eval-1-0 0xd7ab54b5a9144851a03fc3da2e6034cbf5b7f5c2daf55c5405ffdb1d81acadc0
+AMBIGUOUS gw-forensic-1789601529-3 REJECTED {'citations': [{'quote': 'We hope to do useful things for people later. We have not decided which artifacts, audience, rights or deliverables are involved. There is no concrete scope or delivery commitment.', 'source': 0}, {'quote': 'Deliverable: publish an English-language, openly licensed beginner manual for the Open Map toolkit. The manual will cover installation, importing CSV coordinates, and producing a static neighborhood map. It will include 12 executable examples and be freely accessible without registration. Scope covers documentation only, not new software features. Timeline: four weeks.', 'source': 1}], 'duplication': 'DISTINCT', 'eligibility': 'FAIL', 'hashes': ['9625d224d23f9068e7346aa410f1b86e6b8c6cc704f3f0dbecf0fb4dfce111f8', 'd300db59bc299f553e964be28261d8b5c95f8f063a77d5d7ee8012fe641f2407'], 'reason': 'Candidate lacks the rubric’s required concrete public-goods deliverable details: no clear artifact, audience, open license/access commitment, or delivery timeline. Baseline source 1 is a specific documentation manual, so it is materially different rather than duplicate.'}
+FOCUSED_LIVE_INVARIANT_PASS ['REJECTED', 'REJECTED', 'REJECTED']

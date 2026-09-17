@@ -49,6 +49,6 @@ with sync_playwright() as p:
  assert not log['errors'],log['errors']
  log['ledger_text']=page.locator('#round-view').inner_text()
  log['pass']=True;save()
- page.screenshot(path=str(ROOT/'evidence/live-dashboard.png'),full_page=True)
+ page.screenshot(path=str(ROOT/os.getenv('GW_E2E_SCREENSHOT', 'evidence/live-dashboard.png')),full_page=True)
  browser.close()
 print('LIVE_BROWSER_PASS',RID,flush=True)

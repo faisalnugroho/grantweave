@@ -16,14 +16,14 @@ Contract (Studionet, 61999): [0xA2855AA44F14D4E40b804a15c9144A7C7aEAF466](https:
 The contract fetches complete, bounded documents, checks SHA-256 and asks validators to interpret eligibility and semantic scope overlap. The browser does not decide outcomes. Validators independently repeat the process, compare both decision labels and source hashes, and validate quotations. Deterministic code derives RESERVED, REJECTED, INCONCLUSIVE or OVER_BUDGET. Only RESERVED reduces the budget.
 
 ## Verification
-- 97 direct-mode tests passed; web and LLM boundaries explicitly mocked.
+- 109 direct-mode tests passed, including 12 forensic regressions; web and LLM boundaries explicitly mocked.
 - GenVM lint: 3 checks passed and contract validation passed.
 - Desktop/mobile browser integration: explicitly mocked SDK/RPC.
 - Public Pages browser flow completed with a real RESERVED result.
 - A single complete local-server → browser → real Studionet writes → independent chain readback pipeline exited 0: `PIPELINE_PASS: true`.
-- Readback verified deployed source equals repo bytes and budget conservation in all seven observed rounds; 35 transactions checked, 34 successful including deployment, one UNDETERMINED.
+- Historical pre-forensic snapshot: seven rounds and 35 transactions checked; 34 successful including deployment and one unsuccessful consensus attempt, observed then as UNDETERMINED. Fresh forensic checks add three accepted REJECTED scenarios and a public browser flow; see the forensic report for the separate evidence.
 
-[Verification and failure history](docs/VERIFICATION.md) · [First-party audit and residual risks](docs/AUDIT.md) · [Project submission draft](docs/SUBMISSION_DRAFT.md)
+[Consensus forensic report](docs/CONSENSUS_FORENSIC.md) · [Verification and failure history](docs/VERIFICATION.md) · [First-party audit and residual risks](docs/AUDIT.md) · [Project submission draft](docs/SUBMISSION_DRAFT.md)
 
 Original live smoke did NOT pass every expectation: the vague proposal first caused consensus disagreement, then a single retry yielded REJECTED rather than expected INCONCLUSIVE. The unexecuted hash-mismatch live scenario is covered locally, not claimed as live proof. Original logs remain in evidence/; readback.json contains authoritative corrections to the old browser logger's stale labels.
 
