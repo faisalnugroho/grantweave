@@ -74,7 +74,8 @@ for url in urls:
 report['transactions'] = []
 for txhash in sorted(txhashes):
     checked(EX+'/tx/'+txhash,txhash)
-    tx = json.loads(checked(EX+'/api/transactions/'+txhash))
+    envelope = json.loads(checked(EX+'/api/transactions/'+txhash))
+    tx = envelope.get('transaction', envelope)
     assert tx['hash'].lower() == txhash.lower()
     assert tx['to_address'].lower() == address.lower()
     decoded = calldata.decode(base64.b64decode(tx['data']['calldata'])) if tx['data'].get('calldata') else None

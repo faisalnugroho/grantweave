@@ -1,0 +1,5 @@
+Traceback (most recent call last):
+  File "/home/ubuntu/grantweave/scripts/release_public_verify.py", line 78, in <module>
+    assert tx['hash'].lower() == txhash.lower()
+           ~~^^^^^^^^
+KeyError: 'hash'
